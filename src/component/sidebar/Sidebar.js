@@ -23,54 +23,62 @@ const Sidebar = () => {
       <hr></hr>
       <div className="center">
         <ul>
+          <p className="title">Main</p>
           <li>
-          <DashboardIcon/>
+          <DashboardIcon className="icon"/>
             <span>Dashboad</span>
             </li>
+
+            <p className="title">List</p>
           <li>
-            < PersonOutlineIcon/>
+         
+            < PersonOutlineIcon className="icon"/>
             <span>Users</span>
             </li>
           <li>
-          <StoreIcon/>
+          <StoreIcon className="icon"/>
             <span>Products</span>
             </li>
           <li>
-           <CreditCardIcon/>
+           <CreditCardIcon className="icon"/>
             <span>Orders</span>
          </li>
          <li>
-            <LocalShippingIcon/>
+            <LocalShippingIcon className="icon"/>
             <span>Delivery</span>
          </li>
+
+         <p className="title">Useful</p>
          <li>
        
-         <InsertChartIcon/>
+         <InsertChartIcon className="icon"/>
             <span>Stats</span>
          </li>
          <li>
-          <NotificationsNoneIcon/>
+          <NotificationsNoneIcon className="icon"/>
             <span>Notification</span>
          </li>
+         <p className="title">Service</p>
          <li>
-         <SettingsSystemDaydreamOutlinedIcon/>
+         <SettingsSystemDaydreamOutlinedIcon className="icon"/>
             <span>System Helth</span>
          </li>
           <li>
       
-            <PsychologyOutlinedIcon/>
+            <PsychologyOutlinedIcon className="icon"/>
             <span>Logs</span>
          </li>
          <li>
-          <SettingsApplicationsIcon/>
+          <SettingsApplicationsIcon className="icon"/>
             <span>Settings</span>
          </li>
+         <p className="title">User</p>
          <li>
-         <AccountCircleOutlinedIcon/>
+         <AccountCircleOutlinedIcon className="icon"/>
             <span>Profile</span>
          </li>
          <li>
-          <ExitToAppIcon/>
+          <ExitToAppIcon className="icon"/>
             <span>Logout</span>
          </li>
 
@@ -78,7 +86,8 @@ const Sidebar = () => {
 
       </div>
       <div className="bottom">
-        
+       <div className="colorOption"></div> 
+       <div className="colorOption"></div> 
       </div>
     </div>
   )
